@@ -20,6 +20,9 @@ include "koneksi.php";
         <nav class="navbar sticky-top bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="keluar.php">keterlambatan</a>
+                <a href="login.php" class="navbar-brand">
+                    <input type="button" class="btn btn-secondary" value="Kembali" style="position: relative; left: 10px; top: 5px;">
+                </a>
     <a class="navbar-brand" href="keluar.php">Poin Pelanggaran</a>
   </div>
 </nav>

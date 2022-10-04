@@ -5,22 +5,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://kit.fontawesome.com/cc2a263139.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <?php
         include "header.php";
     ?>
         <main>
-            <p>
-                <a href="login.php">
-                    <input type="button" class="btn btn-secondary" value="Kembali" style="position: relative; left: 10px; top: 5px;">
-                </a>
-            </p>
-        <h1 style="position: relative; left: 90px; width: 40px;">keterlambatan</h1>
+        <h1 style="position: relative; left: 90px; width: 40px; font-size: 60px;">Keterlambatan</h1>
             <p>
                 <a href="input_db.php">
                     <input type="button" class="btn btn-primary" style="position: relative; left: 90px;" value="new">
@@ -28,7 +25,6 @@
             </p>
             <div class="container-md">
             <table class="table table-hover">
-                 <thead>
                     <tr>
                         <th class="col-1">No</th>
                         <th>Nama Siswa</th>
@@ -36,22 +32,31 @@
                         <th>Alasan Terlambat</th>
                         <th class="col-2">opsi</th>
                     </tr>
-                 </thead>
-                 <tbody>
+
+                 <?php
+                $d22 = "SELECT * FROM keterlambatan";
+                $f22 = mysqli_query($connect, $d22);
+                while($r22 = mysqli_fetch_array ($f22)){
+                    echo"
                     <tr>
-                        <td>1</td>
-                        <td>arkan</td>
-                        <td>10 pplg 1</td>
-                        <td>Omaga</td>
+                        <td>$r22[no]</td>
+                        <td>$r22[nama_siswa]</td>
+                        <td>$r22[kelas]</td>
+                        <td>$r22[alasan_terlambat]</td>
                         <td>
-                        <span class="badge text-bg-warning">Edit</span>
-                        <span class="badge text-bg-danger">Delete</span>
+                        <a href='editbarang.php?no=$r22[no]'><i class='fa-solid fa-arrow-up-from-bracket' id='aa'></i></a>
+                        <a href='hapusbarang.php?no=$r22[no]'><i class='fa-solid fa-trash-can' id='ae'></i></a>
                         </td>
                     </tr>
-                 </tbody>
+                    ";
+                };
+                ?>
             </table>
             </div>
         </main>
+        <br>
+        <br>
+        <br>
     <?php
         include "footer.php";
     ?>

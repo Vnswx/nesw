@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#ae{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#aa{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
