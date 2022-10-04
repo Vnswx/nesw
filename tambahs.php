@@ -2,13 +2,11 @@
 include 'koneksi.php';
 
 if(isset($_POST['simpan'])){
-    $no = $_POST['no'];
-    $nama_peminjam = $_POST['nama_peminjam'];
-    $stock_barang = $_POST['stock_barang'];
-    $nama_barang = $_POST['nama_barang'];
-    $jenis_barang = $_POST['jenis_barang'];
+    $nama_siswa = $_POST['nama_siswa'];
+    $kelas = $_POST['kelas'];
+    $alasan_terlambat = $_POST['alasan_terlambat'];
 
-    $sql = "INSERT INTO barang(no, nama_peminjam, stock_barang, nama_barang, jenis_barang) VALUES('$no', '$nama_peminjam', '$stock_barang', '$nama_barang', '$jenis_barang')";
+    $sql = "INSERT INTO keterlambatan(, nama_siswa, kelas, alasan_terlambat) VALUES('$nama_siswa', '$kelas', '$alasan_terlambat')";
 
     $query = mysqli_query($connect, $sql);
 

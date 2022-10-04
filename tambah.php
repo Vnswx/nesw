@@ -48,6 +48,7 @@ include 'koneksi.php';
                 </tr>
             </table>
             <br>
+            <br>
     </div>    
     <?php include ('footer.php') ?>
 </body>
