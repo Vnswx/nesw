@@ -22,7 +22,7 @@ include 'koneksi.php';
                     <input type="button" class="btn btn-secondary" value="kembali" style="position: relative; left: 10px; top: 5px;">
                 </a>
             <div class="new">
-        <form action="barangtambah.php" method="post">
+        <form action="tambahs.php" method="post">
             <table class="oiu">
                 <tr>
                     <td><label class="ok">No : </label></td>
