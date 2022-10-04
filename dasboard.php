@@ -10,17 +10,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        <?php
+            include "style.css";
+        ?>
+    </style>
 </head>
 <body>
     <?php
         include "header.php";
     ?>
+    <br>
+    <br>
+    <br>
         <main>
         <h1 style="position: relative; left: 90px; width: 40px; font-size: 60px;">Keterlambatan</h1>
             <p>
                 <a href="tambah.php">
-                    <input type="button" class="btn btn-primary" style="position: relative; left: 90px;" value="new">
+                    <i class='fa-solid fa-arrow-up-from-bracket' id='aa' style="position: relative; left: 90px;">
+                    </i>
                 </a>
             </p>
             <div class="container-md">
@@ -44,7 +52,7 @@
                         <td>$r22[kelas]</td>
                         <td>$r22[alasan_terlambat]</td>
                         <td>
-                        <a href='editbarang.php?no=$r22[no]'><i class='fa-solid fa-arrow-up-from-bracket' id='aa'></i></a>
+                        <a href='editbarang.php?no=$r22[no]'>Update</a>
                         <a href='hapus.php?no=$r22[no]'><i class='fa-solid fa-trash-can' id='ae'></i></a>
                         </td>
                     </tr>

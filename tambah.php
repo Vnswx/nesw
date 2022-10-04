@@ -15,6 +15,13 @@ include 'koneksi.php';
 <?php
     include ('header.php')
 ?>
+<br>
+<br>
+<br>
+
+                <a href="dasboard.php" class="navbar-brand">
+                    <input type="button" class="btn btn-secondary" value="kembali" style="position: relative; left: 10px; top: 5px;">
+                </a>
             <div class="new">
         <form action="simpan.php" method="post">
             <table class="oiu">
