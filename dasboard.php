@@ -52,7 +52,7 @@
                         <td>$r22[kelas]</td>
                         <td>$r22[alasan_terlambat]</td>
                         <td>
-                        <a href='editbarang.php?no=$r22[no]'><i class='fa-solid fa-pen-to-square id='ae''></i></a>
+                        <a href='editbarang.php?no=$r22[no]'><i class='fa-solid fa-pen-to-square 'id='ae'></i></a>
                         <a href='hapus.php?no=$r22[no]'><i class='fa-solid fa-trash-can' id='ae'></i></a>
                         </td>
                     </tr>
