@@ -1,7 +1,6 @@
 <?php
 include 'koneksi.php';
 if(isset($_POST['simpan'])) {
-    $no = $_POST['no']; 
     $nama_siswa = $_POST['nama_siswa'];
     $kelas = $_POST['kelas'];
     $alasan_terlambat = $_POST['alasan_terlambat']; 
@@ -13,7 +12,7 @@ if(isset($_POST['simpan'])) {
     if($query){
     header('Location: dasboard.php'); 
     }else{
-    header('Location: editbarang.php?status=arkan ganteng'); 
+    header('Location: edit.php?status=error'); 
     }
 }
 ?>
