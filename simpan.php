@@ -8,7 +8,7 @@
         $alasan_terlambat= $_POST['alasan_terlambat'];
         
 
-        $sql = "UPDATE keterlmabatan SET nama_siswa = '$nama_siswa', kelas = '$kelas', alasan_terlambat= '$alasan' WHERE barang.no = '$no'";
+        $sql = "UPDATE keterlambatan SET nama_siswa = '$nama_siswa', kelas = '$kelas', alasan_terlambat= '$alasan' WHERE barang.no = '$no'";
 
         $query = mysqli_query($connect, $sql);
         if($query){

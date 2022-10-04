@@ -1,6 +1,7 @@
 <?php
 include 'koneksi.php';
 if(isset($_POST['simpan'])) {
+    $no = $_POST['no'];
     $nama_siswa = $_POST['nama_siswa'];
     $kelas = $_POST['kelas'];
     $alasan_terlambat = $_POST['alasan_terlambat']; 

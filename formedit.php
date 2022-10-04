@@ -4,7 +4,7 @@ include 'koneksi.php';
 $no = $_GET['no'];
 $sql = "SELECT * FROM keterlambatan WHERE no='$no'";
 $query = mysqli_query($connect, $sql);
-$pel = mysqli_fetch_assoc($query);
+$r22 = mysqli_fetch_assoc($query);
 
 if(mysqli_num_rows($query) <1){
     die ("data tidak ditemukan");
@@ -27,11 +27,27 @@ if(mysqli_num_rows($query) <1){
     <br>
     <form action="edit.php" method="post">
         <h3>Edit Data barang</h3>
-        <p><label>Nama Siswa: <input value="<?php echo $r22['nama_siswa']?>" required="required" type="text" name="nama_siswa"></label></p>
-        <p><label>Kelas: <input value="<?php echo $r22['kelas']?>" required="required" type="text" name="kelas"></label></p>
-        <p><label>Alasan terlambat : <input value="<?php echo $r22['alasan_terlambat']?>" required="required" type="text" name="alasan_terlambat"></label></p>
-
-        <input type="submit" name="simpan" value="simpan">
+        <table class="oiu">
+                <tr>
+                    <td><label class="ok">No : </label></td>
+                    <td><input value="<?php echo $r22['no']?>" class="input" type="number" disabled name="no"></td>
+                </tr>
+                <tr>
+                    <td><label class="ok">Nama Siswa : </label></td>
+                    <td><input value="<?php echo $r22['nama_siswa']?>" class="input" required="required" type="text" name="nama_siswa"></td>
+                </tr>
+                <tr>
+                    <td><label class="ok">Kelas : </label></td>
+                    <td><input required="required" value="<?php echo $r22['kelas']?>" class="input" name="kelas" type="text"></td>
+                </tr>
+                <tr>
+                    <td><label class="ok">Alasan Terlambat : </label></td>
+                    <td><input value="<?php echo $r22['alasan_terlambat']?>" class="input" required="required" type="text" name="alasan_terlambat"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" name="simpan" value="simpan" class="oj"></td>
+                </tr>
+            </table>
     </form>
     <br>
     <br>
