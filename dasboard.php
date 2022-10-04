@@ -19,7 +19,7 @@
         <main>
         <h1 style="position: relative; left: 90px; width: 40px; font-size: 60px;">Keterlambatan</h1>
             <p>
-                <a href="input_db.php">
+                <a href="tambah.php">
                     <input type="button" class="btn btn-primary" style="position: relative; left: 90px;" value="new">
                 </a>
             </p>
