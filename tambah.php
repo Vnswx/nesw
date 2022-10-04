@@ -23,11 +23,12 @@ include 'koneksi.php';
                     <input type="button" class="btn btn-secondary" value="kembali" style="position: relative; left: 10px; top: 5px;">
                 </a>
             <div class="new">
-        <form action="simpan.php" method="post">
+        <form action="tambahs.php" method="post">
             <table class="oiu">
                 <tr>
                     <td><label class="ok">No : </label></td>
                     <td><input class="input" required="required" type="number" name="no"></td>
+                    <br>
                 </tr>
                 <tr>
                     <td><label class="ok">Nama Siswa : </label></td>
