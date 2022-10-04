@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    color: black;
+}
+
+button:hover{
+    background-color: #243A73;
+    color: aliceblue;
+    transition: 0.3s;
+}
+
+.logo img{
+    position: absolute;
+    width: 102px;
+    height: 73px;
+    left: 144px;
+    top: 3px;
+}
+
+body{
+    background-image: url("hd.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+::placeholder{
+    color: white;
+}
+
+.form input{
+    border: none;
+    width: 80%;
+    border-bottom: 2px solid white;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+  }
+
+
+
+input:focus {
+    outline: none;
+    border-bottom: 2px solid rgb(91, 243, 131);
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
