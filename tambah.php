@@ -26,22 +26,17 @@ include 'koneksi.php';
         <form action="tambahs.php" method="post">
             <table class="oiu">
                 <tr>
-                    <td><label class="ok">No : </label></td>
-                    <td><input class="input" required="required" type="number" name="no"></td>
-                    <br>
-                </tr>
-                <tr>
                     <td><label class="ok">Nama Siswa : </label></td>
-                    <td><input class="input" required="required" type="text" name="nama_peminjam"></td>
+                    <td><input class="input" required="required" type="text" name="nama_siswa"></td>
                 </tr>
                 <br>
                 <tr>
                     <td><label class="ok">Kelas : </label></td>
-                    <td><input class="input" required="required" type="text" name="nama_barang"></td>
+                    <td><input class="input" required="required" type="text" name="kelas"></td>
                 </tr>
                 <tr>
                     <td><label class="ok">Alasan Terlambat : </label></td>
-                    <td><input class="input" required="required" type="text" name="jenis_barang"></td>
+                    <td><input class="input" required="required" type="text" name="alasan_terlambat"></td>
                 </tr>
                 <tr>
                     <td><input type="submit" name="simpan" value="simpan" class="oj"></td>
