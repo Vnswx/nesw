@@ -4,10 +4,10 @@
                 <br>
                 Company <br>
                 Dexie
-                FaiZ
+                Fais pake z
                 Fadli
-                Arkan BEBANN
-                (Rizky anaknya YONOOOOOO)
+                Arkan
+                Rizky 
             </div>
         </footer>
         <script>
