@@ -5,9 +5,9 @@
                 Company <br>
                 Dexie
                 Fais
-                Fadli
-                Arkan(beban)
-                Rizky
+                (Fadli wibu)
+                Arkan ganteng
+                (Rizky YONO0
             </div>
         </footer>
         <script>

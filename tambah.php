@@ -22,20 +22,16 @@ include 'koneksi.php';
                     <td><input class="input" required="required" type="number" name="no"></td>
                 </tr>
                 <tr>
-                    <td><label class="ok">Nama Peminjam : </label></td>
+                    <td><label class="ok">Nama siswa : </label></td>
                     <td><input class="input" required="required" type="text" name="nama_peminjam"></td>
                 </tr>
                 <tr>
-                    <td><label class="ok">Stock Barang : </label></td>
-                    <td><input required="required" class="input" type="number" name="stock_barang"></td>
+                    <td><label class="ok">kelas : </label></td>
+                    <td><input required="required" class="input" type="text" name="stock_barang"></td>
                 </tr>
                 <tr>
-                    <td><label class="ok">Nama Barang : </label></td>
+                    <td><label class="ok">Alasan terlambat : </label></td>
                     <td><input class="input" required="required" type="text" name="nama_barang"></td>
-                </tr>
-                <tr>
-                    <td><label class="ok">Jenis Barang : </label></td>
-                    <td><input class="input" required="required" type="text" name="jenis_barang"></td>
                 </tr>
                 <tr>
                     <td><input type="submit" name="simpan" value="simpan" class="oj"></td>
