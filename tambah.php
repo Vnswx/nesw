@@ -26,11 +26,35 @@ include 'koneksi.php';
         <form action="tambahs.php" method="post">
             <table class="oiu">
                 <tr>
+<<<<<<< HEAD
                     <td><label class="ok">Nama Siswa : </label></td>
                     <td><input class="input" required="required" type="text" name="nama_siswa"></td>
+=======
+                    <td><label class="ok">No : </label></td>
+                    <td><input class="input" required="required" type="number" name="no"></td>
+                    <br>
+                </tr>
+                <tr>
+<<<<<<< HEAD
+                    <td><label class="ok">Nama siswa : </label></td>
+=======
+                    <td><label class="ok">Nama Siswa : </label></td>
+>>>>>>> a28e9a423cace353a030d1f3eea7a50f88d9d53c
+                    <td><input class="input" required="required" type="text" name="nama_peminjam"></td>
+>>>>>>> b0e623b5ee3db6e1f0f875f776b4140453ffc978
                 </tr>
                 <br>
                 <tr>
+<<<<<<< HEAD
+                    <td><label class="ok">kelas : </label></td>
+                    <td><input required="required" class="input" type="text" name="stock_barang"></td>
+                </tr>
+                <tr>
+                    <td><label class="ok">Alasan terlambat : </label></td>
+                    <td><input class="input" required="required" type="text" name="nama_barang"></td>
+                </tr>
+                <tr>
+=======
                     <td><label class="ok">Kelas : </label></td>
                     <td><input class="input" required="required" type="text" name="kelas"></td>
                 </tr>
@@ -39,9 +63,11 @@ include 'koneksi.php';
                     <td><input class="input" required="required" type="text" name="alasan_terlambat"></td>
                 </tr>
                 <tr>
+>>>>>>> a28e9a423cace353a030d1f3eea7a50f88d9d53c
                     <td><input type="submit" name="simpan" value="simpan" class="oj"></td>
                 </tr>
             </table>
+            <br>
             <br>
     </div>    
     <?php include ('footer.php') ?>
