@@ -15,13 +15,12 @@ include 'koneksi.php';
 <?php
     include ('header.php')
 ?>
-<br>
-<br>
-<br>
-
                 <a href="dasboard.php" class="navbar-brand">
                     <input type="button" class="btn btn-secondary" value="kembali" style="position: relative; left: 10px; top: 5px;">
                 </a>
+<br>
+<br>
+<br>
             <div class="new">
         <form action="tambahs.php" method="post">
             <table class="oiu">
@@ -42,7 +41,13 @@ include 'koneksi.php';
             </table>
             <br>
             <br>
-    </div>    
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <?php include ('footer.php') ?>
 </body>
 </html>

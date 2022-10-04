@@ -15,6 +15,9 @@
 }
 
 .oj{
+    margin-top: 20px;
     width: 300px;
     font-size: 15px;
+    position: relative;
+    left: 300px;
 }
