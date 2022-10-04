@@ -4,17 +4,10 @@
                 <br>
                 Company <br>
                 Dexie
-<<<<<<< HEAD
-                Fais
-                (Fadli wibu)
-                Arkan ganteng
-                (Rizky YONO0
-=======
                 Fais pake z
                 Fadli
                 Arkan
                 Rizky 
->>>>>>> a28e9a423cace353a030d1f3eea7a50f88d9d53c
             </div>
         </footer>
         <script>
