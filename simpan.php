@@ -8,14 +8,14 @@
         $alasan_terlambat= $_POST['alasan_terlambat'];
         
 
-        $sql = "UPDATE keterlambatan SET nama_siswa = '$nama_siswa', kelas = '$kelas', alasan_terlambat= '$alasan' WHERE barang.no = '$no'";
+        $sql = "UPDATE keterlambatan SET nama_siswa = '$nama_siswa', kelas = '$kelas', alasan_terlambat = '$alasan_terlambat' WHERE no= 'no'";
 
         $query = mysqli_query($connect, $sql);
         if($query){
-            header('Location: tampildatabarang.php');
+            header('Location: dasboard.php');
         }
         else{
-            header('Location: simpan_barang.php?status=gagal');
+            header('Location: simpan.php?status=gagal');
         }
     }
 ?>
