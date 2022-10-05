@@ -6,10 +6,8 @@ if(isset($_POST['simpan'])) {
     $kelas = $_POST['kelas'];
     $alasan_terlambat = $_POST['alasan_terlambat']; 
 
-    $sql =  "UPDATE keterlambatan SET  nama_siswa = '$nama_siswa', kelas ='$kelas', alasan_terlambat ='$alasan_terlambat' WHERE no ='$no'";
-
+    $sql =  "UPDATE keterlambatan SET no='$no',nama_siswa='$nama_siswa',kelas='$kelas',alasan_terlambat='$alasan_terlambat' WHERE 1"
     $query = mysqLi_query($connect, $sql); 
-
     if($query){
     header('Location: dasboard.php'); 
     }else{
