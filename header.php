@@ -17,13 +17,13 @@ include "koneksi.php";
 </head>
 <body>
         <header>
-        <nav class="navbar sticky-top bg-light">
+        <nav class="navbar sticky-top bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="keluar.php">keterlambatan</a>
+    <a class="navbar-brand" href="keluar.php" style="color: white;">keterlambatan</a>
                 <a href="login.php" class="navbar-brand">
                     <input type="button" class="btn btn-secondary" value="Log out" style="position: relative; left: 10px; top: 5px;">
                 </a>
-    <a class="navbar-brand" href="keluar.php">Poin Pelanggaran</a>
+    <a class="navbar-brand" href="keluar.php" style="color: white;">Poin Pelanggaran</a>
   </div>
 </nav>
         </header>

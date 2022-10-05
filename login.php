@@ -13,7 +13,7 @@
 </head>
 <body>
 <div class="opm" style="display: flex; flex-wrap: wrap;justify-content: center;position: relative;top:  110px; border: black 3px solid; width: 400px; left: 35%; border-radius: 5px; background-color: transparent; height: 400px; border: none; box-shadow: 0 5px 30px black;">
-    <div class="logo"><img src="asdw.png" alt=""></div>
+    <div class="logo"><img src="omaga.png" alt=""></div>
     <form method="post">
         <div class="form"><input type="text" name="user" placeholder="Username" required autocomplete="off" style="position: absolute; width: 360px; height: 30px; left: 10px; top: 100px; font-size: 15px;">
         </div>
