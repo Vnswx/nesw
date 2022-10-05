@@ -5,7 +5,6 @@ $no = $_GET['no'];
 $sql = "SELECT * FROM keterlambatan WHERE no='$no'";
 $query = mysqli_query($connect, $sql);
 $r22 = mysqli_fetch_assoc($query);
-
 if(mysqli_num_rows($query) <1){
     die ("data tidak ditemukan");
 }
@@ -26,11 +25,11 @@ if(mysqli_num_rows($query) <1){
     <br>
     <br>
     <form action="edit.php" method="post">
-        <h3>Edit Data barang</h3>
+        <h3>Edit Data baranssg</h3>
         <table class="oiu">
                 <tr>
                     <td><label class="ok">No : </label></td>
-                    <td><input value="<?php echo $r22['no']?>" class="input" type="number" disabled name="no"></td>
+                    <td><input value="<?php echo $r22['no']?>" class="input" type="number" name="no"></td>
                 </tr>
                 <tr>
                     <td><label class="ok">Nama Siswa : </label></td>
