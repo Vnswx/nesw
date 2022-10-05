@@ -20,7 +20,7 @@ if(mysqli_num_rows($query) <1){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit Data</title>
-    <link rel="stylesheet" href="yaiya.css">
+    <link rel="stylesheet" href="tambah.css">
 </head>
 <body>
     <br>
